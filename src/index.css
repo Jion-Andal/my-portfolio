@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Custom theme colors for classy dark look */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #1a1a1a;
+  --bs-body-color: #f8f8f8;
+  --bs-primary: #6f42c1; /* Purple accent */
+  --bs-secondary: #495057;
+  --bs-dark: #212529;
+  --bs-light: #343a40;
+}
+
+[data-bs-theme="light"] {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #212529;
+  --bs-primary: #007bff;
+  --bs-secondary: #6c757d;
+  --bs-dark: #343a40;
+  --bs-light: #f8f9fa;
+}
